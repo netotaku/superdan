@@ -65,3 +65,9 @@ img{
     background-position: center;
   }
 }
+
+@media (min-width: $MD){
+  .hero{
+    padding-top: 60%;
+  }
+}
