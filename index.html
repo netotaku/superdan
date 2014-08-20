@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+<div class="hero">
+  <figure style="background-image: url(http://photos-d.ak.instagram.com/hphotos-ak-xfp1/10536891_897942586886523_812629230_n.jpg)"></figure>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="block">
+  <div class="container">
+    <h2>Posts</h2>
+    <ul class="type">
+      {% for post in site.posts %}
+        <li>
+          <article>
+            <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+          </article>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
