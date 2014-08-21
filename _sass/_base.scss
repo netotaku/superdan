@@ -9,6 +9,15 @@
       text-decoration: none;
     }
   }
+  nav{
+    li{
+      display: inline;
+      &:not(:last-child):after{
+        content: ' | ';
+        color: #fff;
+      }
+    }
+  }
 }
 
 .footer{
@@ -26,11 +35,20 @@
 
 a{
   color: #09f;
+  text-decoration: none;
   &:hover{
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
 time{
   color: #ccc;
+}
+
+strong{
+  font-weight: bold;
+}
+
+em{
+  font-style: italic;
 }

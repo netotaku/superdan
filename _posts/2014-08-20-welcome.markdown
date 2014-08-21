@@ -6,8 +6,6 @@ categories: powerrangers
 hero: http://images2.alphacoders.com/220/22032.jpg
 ---
 Welcome to my blog. I plan to post some of the things I like, my adventures and pictures of things that I make at school ( So my dad can throw them away )
-You can find out more about me [here](/superdan/about/) and you can subscribe [here](/superdan/feed.xml)
+You can find out more about me [here](/superdan/about/) and you can subscribe [here](/superdan/feed.xml).
 
-Nice one
-
-Dan :D
+<em>Dan</em>

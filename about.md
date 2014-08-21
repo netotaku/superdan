@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 hero: http://upload.wikimedia.org/wikipedia/commons/1/17/Tiger_in_Ranthambhore.jpg
 ---
@@ -56,15 +56,3 @@ My name is Daniel I live Eastville in bristol. I go to [Glenfrome School](http:/
 </ul>
 
 <br>
-
-
-## Things I like
-
-- Blue Power Ranger ( Mega Force )
-- Dad's Motorbike
-- Icecream
-- Vampires
-- Werewolfs
-- Zombies
-- Cutting the grass with Grandad
-- My brother Alex
