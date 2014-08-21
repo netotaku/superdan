@@ -5,8 +5,7 @@ permalink: /about/
 hero: http://upload.wikimedia.org/wikipedia/commons/1/17/Tiger_in_Ranthambhore.jpg
 ---
 
-Hiya,
-My name is Daniel I live Eastville in bristol. I go to [Glenfrome School](http://glenfromeps.schooljotter.com/). I am 4 years old.
+My name is Daniel Rhodry Cornelius Clarkson. I live in Eastville, Bristol UK. I go to [Glenfrome School](http://glenfromeps.schooljotter.com/). I am 4 years old.
 
 ## My Family
 
