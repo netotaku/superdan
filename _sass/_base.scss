@@ -22,6 +22,9 @@
           width: 60px;
           height: 60px;
           line-height: 60px;
+          &:hover{
+            background: #09f;
+          }
           i{
             @include font-size(2.2);
             height: 60px;
