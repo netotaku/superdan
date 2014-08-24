@@ -11,6 +11,9 @@ layout: default
 <div class="block">
   <article class="container type">
     <h1>{{ page.title }}</h1>
+    {% if page.isPost %}
+      <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+    {% endif %}
     {{ content }}
     {% if page.gallery %}
       <ul class="grid">
