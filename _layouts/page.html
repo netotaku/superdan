@@ -12,5 +12,18 @@ layout: default
   <article class="container type">
     <h1>{{ page.title }}</h1>
     {{ content }}
+    {% if page.gallery %}
+      <ul class="grid">
+        {% for item in page.gallery %}
+          <li>
+            <figure>
+              <img src="{{ item.file }}">
+              <figcaption>{{ item.caption }}</figcaption>
+            </figure>
+          </li>
+        {% endfor %}
+      </ul>
+      <br />
+    {% endif %}
   </article>
 </div>

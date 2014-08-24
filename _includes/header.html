@@ -2,7 +2,8 @@
   <div class="block">
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav>
-      <ul>
+
+        <!--
         {% for page in site.pages %}
           {% if page.title %}
             <li>
@@ -10,7 +11,23 @@
             </li>
           {% endif %}
         {% endfor %}
+        -->
+
+        <ul>
+            <li>
+              <a href="/about/">
+                <i class="fa fa-smile-o"></i>
+                About me</a>
+            </li>
+
+            <li>
+              <a href="/things-i-like/">
+                <i class="fa fa-heart-o"></i>
+                Things I like</a>
+            </li>
+
       </ul>
+
     </nav>
   </div>
 </header>

@@ -11,11 +11,20 @@
   }
   nav{
     li{
-      display: inline;
-      &:not(:last-child):after{
-        content: ' | ';
-        color: #fff;
+      display: inline-block;
+      // &:not(:last-child):after{
+      //   content: ' | ';
+      //   color: #fff;
+      // }
+      a{
+        display: inline-block;
+        padding: 0px 15px;
+        height: 40px;
+        line-height: 40px;
+        background: #09f;
+        border-radius: 5px;
       }
+
     }
   }
 }
