@@ -7,8 +7,8 @@ layout: default
 </div>
 
 <div class="block">
-  <div class="container">
-    <h2><strong>Posts</strong></h2>
+  <div class="container posts">
+    <h2><strong>POSTS</strong></h2>
     <ul class="type">
       {% for post in site.posts %}
         <li>
@@ -16,8 +16,16 @@ layout: default
             <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
             <time>{{ post.date | date: "%b %-d, %Y" }}</time>
           </article>
+          <div class="delimiter">
+            <hr />
+            <div class="plane">
+              <i class="fa fa-paper-plane-o"></i>
+            </div>
+          </div>
         </li>
       {% endfor %}
     </ul>
   </div>
 </div>
+
+<!-- GSCSK2Q -->

@@ -6,6 +6,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://superdan.io" # the base hostname & protocol for your site
 twitter_username: t_pk
 github_username:  netotaku
+navIcons: {
+  "/about/": "fa fa-smile-o",
+  "/things-i-like/": "fa fa-heart-o"
+  }
 
 # Build settings
 markdown: kramdown

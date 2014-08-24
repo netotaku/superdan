@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
-hero: http://upload.wikimedia.org/wikipedia/commons/1/17/Tiger_in_Ranthambhore.jpg
+hero: http://distilleryimage10.ak.instagram.com/c5fe5f3801f911e3bc3b22000ae80efa_7.jpg
 gallery: [{
   "file": "http://distilleryimage11.ak.instagram.com/27e4591aac2111e3a6680e0368da678b_8.jpg",
   "caption": "Me"
@@ -24,7 +24,10 @@ gallery: [{
   },{
   "file": 'http://photos-g.ak.instagram.com/hphotos-ak-xfp1/1738025_490598101050966_1345555434_n.jpg',
   "caption": 'Rah Rah'
-  }]
+  },{
+    file: "http://photos-e.ak.instagram.com/hphotos-ak-xfp1/10004244_560459957385092_61092430_n.jpg",
+    caption: "Aunty Charlie and Polly"
+    }]
 ---
 
 My name is Daniel Rhodry Cornelius Clarkson. I live in Eastville, Bristol UK. I go to [Glenfrome School](http://glenfromeps.schooljotter.com/). I am 4 years old.

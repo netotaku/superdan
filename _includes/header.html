@@ -2,32 +2,22 @@
   <div class="block">
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav>
-
-        <!--
-        {% for page in site.pages %}
-          {% if page.title %}
+      <ul>
+        <li>
+          <a title="Home" href="/">
+            <i class="fa fa-home"></i>
+          </a>
+        </li>
+        {% for p in site.pages %}
+          {% if p.title %}
             <li>
-              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              <a title="{{ p.title }}" href="{{ p.url | prepend: site.baseurl }}">
+                <i class="{{ site.navIcons[p.url] }}"></i>
+              </a>
             </li>
           {% endif %}
         {% endfor %}
-        -->
-
-        <ul>
-            <li>
-              <a href="/about/">
-                <i class="fa fa-smile-o"></i>
-                About me</a>
-            </li>
-
-            <li>
-              <a href="/things-i-like/">
-                <i class="fa fa-heart-o"></i>
-                Things I like</a>
-            </li>
-
       </ul>
-
     </nav>
   </div>
 </header>
